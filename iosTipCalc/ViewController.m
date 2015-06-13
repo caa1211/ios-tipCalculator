@@ -59,7 +59,7 @@
     fade.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     fade.fromValue = [NSNumber numberWithFloat:0.0f];
     fade.toValue = [NSNumber numberWithFloat:1.0f];
-    fade.duration = 2.0f;
+    fade.duration = 1.0f;
     [self.totalLabel.layer addAnimation:fade forKey:@"fade"];
     
     self.tipLabel.text = [NSString stringWithFormat:@"$%0.2f", tipAmount ];
